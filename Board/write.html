@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>글쓰기</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <style>
+        
+
+    </style> 
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h3>Board System v1.0</h3>
+            <p>
+                <span>홍길동</span>님 반갑습니다.
+                <a href="#">[로그아웃]</a>
+            </p>
+        </header>
+        <main id="board">
+            <section class="write">
+               
+                <table border="1">
+                    <caption>글쓰기</caption>
+                    <tr>
+                        <td>제목</td>
+                        <td>
+                            <input type="text" name="title" placeholder="제목을 입력하세요.">
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td>내용</td>
+                        <td>
+                            <textarea name="content"></textarea>
+                        </td>
+                    </tr>     
+                    <tr>
+                        <td>첨부</td>
+                        <td>
+                            <input type="file" name="file">
+                        </td>
+                    </tr>     
+                </table>
+
+                <div >
+                    <a href="./list.html" class="btnCancel">취소</a>
+                    <input type="submit" class="btnWrite" value="작성완료">
+                </div>
+
+                <button class="btn btnWrite">글쓰기</button>
+
+                
+            </section>
+        </main>
+        <footer>
+            <p>ⓒCopyright chhak.or.kr</p>
+        </footer>
+    </div>    
+</body>
+</html>
